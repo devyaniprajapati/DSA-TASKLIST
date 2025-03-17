@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <header class="header navbar navbar-expand-sm" style="background-color: black; width: 100%;">
+        <div class="container header d-flex align-items-center animate__animated wow animate__slideInUp p-0">
+            <div class="logo text-white">
+                <h1>Portfolio</h1>
+
+            </div>
+            <button class="btn navbar-toggler" style="color: white;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="navbar-toggler-icon"><i class="bi bi-list"></i></span></button>
+
+            <!-- <button class="navbar-toggler btn-info" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <ul class="navtext navbar list-unstyled">
+                <li class="p-2 nav-item"><a href="" class="btn text-white">HOME </a></li>
+                <li class="p-2 nav-item"><a href="" class="btn text-white">ABOUT</a></li>
+                <li class="p-2 nav-item"><a href="" class="btn text-white">SEVICES</a></li>
+                <li class="p-2 nav-item"><a href="" class="btn text-white">WORK</a></li>
+                <li class="p-2 nav-item"><a href="" class="btn text-white">BLOG</a></li>
+                <li class="p-2 nav-item"><a href="file:///C:/Users/DELL/Downloads/Devyani-prajapati-FlowCV-Resume-20241015%20(1).pdf" class="btn text-white">resume</a></li>
+            </ul>
+       </div>
+    </header>
+    <!-- <button class="btn navbar-toggler" style="color: white;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="navbar-toggler-icon"><i class="bi bi-list"></i></span></button> -->
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <ul class="navtext list-unstyled">
+                <li class="p-2"><a href="" class="btn">HOME </a></li>
+                <li class="p-2"><a href="" class="btn">ABOUT</a></li>
+                <li class="p-2"><a href="" class="btn">SEVICES</a></li>
+                <li class="p-2"><a href="" class="btn">WORK</a></li>
+                <li class="p-2"><a href="" class="btn">BLOG</a></li>
+                <li class="p-2"><a href="" class="btn">CONTACT</a></li>
+            </ul>
+            
+        </div>
+        </div>
+
+<!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navtext navbar list-unstyled">
+      <h3>
+        <li class="p-2"><a href="home.html" class="btn text-dark">HOME</a></li>
+        <li class="p-2"><a href="about.html" class="btn text-dark">ABOUT</a></li>
+        <li class="p-2"><a href="sevices.html" class="btn text-dark">SEVICES</a></li>
+        <li class="p-2"><a href="work.html" class="btn text-dark">WORK</a></li>
+        <li class="p-2"><a href="contact.html" class="btn text-dark">CONTACT</a></li>
+      </h3>
+    </ul>
+  </div>
+</div>
+    <div class="banner">
+    </div>
+    <div class="benner-countent text-white">
+      <h1 class="animate__animated wow animate__flipInX fs-40 px align-items-center"> Devyani prajapati</h1>
+      <h1>
+          <h1 class="typewrite " data-period="2000" data-type='[ "Welcome to my portfolio","I am Web Developer."]'>
+              <span class="wrap"></span>
+          </h1>
+        </h1>
+    </div>
+    
+        <div class="container-fluid bg-light pt-5">
+            <div class="container bg-white p-5 animate__animated wow animate__zoomIn">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-4">
+                                <img src="images/img 1.jpeg" alt="" class="m-auto" style="height: 170px; border-radius: 8px;">
+                        </div>
+                        <div class="col-lg-6" style="padding-left: 15%;">
+                            <b>Name:</b> <b>Devyani prajapati</b><br><br>
+                            <b>Profile:</b> <b>web Developer</b> <br><br>
+                            <b>Email:</b><b>devyaniprajapati@gmail.com</b><br><br>
+                            <b>Phone:</b><b> +91 9875166278</b>
+                        </div>
+                        <br><br>
+                        
+                        <h3>Skill</h3>
+                        <h5>HTML 95%</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                          </div>
+
+                          <h5><br>CSS 80%</h5>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                          </div>
+
+                          <h5><br>Bootstrap 85%</h5>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                          </div>
+
+                          <h5><br>JAVASCRIPT 95%</h5>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+                          </div>
+
+                          <h5><br>React 75%</h5>
+                          <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-dark col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <h1>About me</h1><br>
+                        <p style="font-size: 20px; color: rgb(93, 93, 93);">I am a full-stack developer skilled in both front-end and back-end technologies, capable of handling the complete development process.</p><br>
+                        <p style="font-size: 20px; color: rgb(93, 93, 93);"> i have experience working with tools like Firebase Authentication, React, and Google Sign-In, among others. Your expertise allows you to bridge the gap between design and functionality, ensuring seamless, dynamic web applications. You're detail-oriented and committed to building efficient, scalable, and user-friendly software solutions. </p><br>
+                        <p style="font-size: 20px; color: rgb(93, 93, 93);"> If you'd like to share more about yourself, I can refine this further!.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid bg-light">
+            <div class="text text-center pt-5 pb-2">
+                <h1><b>SERVICES</b></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="card1 col-lg-4 card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 animate__animated wow animate__fadeInLeft">
+                        <div class="icons text-center pt-5">
+                           <i class="bi bi-briefcase" style="font-size: 45px; border-radius: 50%; padding: 20px; padding-left: 25px; padding-right: 25px;"></i>
+                        </div>
+                        <h4 class="text-center pt-5">WEB DESIGN</h4>
+                        <p class="text-center pb-4">Web design involves the process of creating and organizing the visual and interactive elements of a website to ensure a seamless user experience. Here are key aspects of web design:.</p>
+                    </div>
+                    <div class="card1 col-lg-4 card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 animate__animated wow animate__fadeInDown">
+                        <div class="icons text-center pt-5">
+                            <i class="bi bi-card-checklist" style="font-size: 45px; border-radius: 50%; padding: 20px; padding-left: 25px; padding-right: 25px;"></i>
+                        </div>
+                        <h4 class="text-center pt-5">WEB DEVELOPMENT</h4>
+                        <p class="text-center pb-4">Web development refers to the process of building, creating, and maintaining websites. It involves two major areas: front-end (client-side) and back-end (server-side) development. Below is a breakdown of web development components</p>
+                    </div>
+                    <div class="card1 col-lg-4 card col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 animate__animated wow animate__fadeInRight">
+                        <div class="icons text-center pt-5">
+                            <i class="bi bi-reception-4" style="font-size: 45px; border-radius: 50%; padding: 20px; padding-left: 25px; padding-right: 25px;"></i>
+                        </div>
+                        <h4 class="text-center pt-5">PHOTOGRAPHY</h4>
+                        <p class="text-center pb-4">Photography is the art and practice of capturing light to create images, using either digital or film-based cameras. It blends creativity, technical skill, and an understanding of light, composition, and subject matter. Below are the essential aspects of photography:.</p>
+                    </div>
+                </div>
+
+                <div class="row animate__animated ">
+                    <div class="card1 col-lg-4 card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 animate__animated wow animate__fadeInLeft">
+                        <div class="icons text-center pt-5">
+                            <i class="bi bi-binoculars" style="font-size: 45px; border-radius: 50%; padding: 20px; padding-left: 25px; padding-right: 25px;"></i>
+                        </div>
+
+                        <h4 class="text-center pt-5">RESPONSIVE DESIGN</h4>
+                        <p class="text-center pb-4">
+                          Responsive design is a web development approach aimed at creating websites and web applications that provide an optimal viewing experience across a wide range of devices, including desktops, tablets, and smartphones. .</p>
+                    </div>
+                    <div class="card1 col-lg-4 card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 animate__animated wow animate__fadeInUp">
+                        <div class="icons text-center pt-5">
+                            <i class="bi bi-brightness-high" style="font-size: 45px; border-radius: 50%; padding: 20px; padding-left: 25px; padding-right: 25px;"></i>
+                        </div>
+                        <h4 class="text-center pt-5">GRAPHICS DESIGN</h4>
+                        <p class="text-center pb-4">
+                          Graphic design is the art and practice of planning and creating visual content to communicate ideas, messages, and information. It involves the use of typography, images, colors, and layout techniques to produce visually appealing designs for both print and digital media.</p>
+                    </div>
+                    <div class="card1 col-lg-4 card col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4 animate__animated wow animate__fadeInRight">
+                        <div class="icons text-center pt-5">
+                            <i class="bi bi-calendar4-week" style="font-size: 45px; border-radius: 50%; padding: 20px; padding-left: 25px; padding-right: 25px;"></i>
+                        </div>
+                        <h4 class="text-center pt-5">MARKETING SERVICES</h4>
+                        <p class="text-center pb-4">Marketing services refer to a broad range of strategies, tools, and actions designed to promote products, services, or brands to a target audience. These services are critical for businesses to reach potential customers, build brand awareness, and drive sales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var TxtType = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+    
+        TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+    
+            if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+    
+            this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+    
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+    
+            if (this.isDeleting) { delta /= 2; }
+    
+            if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+            }
+    
+            setTimeout(function() {
+            that.tick();
+            }, delta);
+        };
+    
+        window.onload = function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i=0; i<elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                  new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+        </script>
+        <script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+        <br><br><br>
+         <div class="section-counter paralax-mf bg-image" style="background-image: url(https://media.istockphoto.com/id/1573594304/photo/beautiful-defocused-office-background-office-interior-panoramic-background.webp?b=1&s=170667a&w=0&k=20&c=-FbOhK86QTUArq0KiGB9w1zjStW0CA3MAtGNtth_vLA=)">
+            <div class="overlay-mf"></div>
+            <div class="container position-relative">
+              <div class="row">
+                <div class="col-sm-3 col-lg-3">
+                  <div class="counter-box counter-box pt-4 pt-md-0">
+                    <div class="counter-ico">
+                      <span class="ico-circle"><i class="bi bi-check"></i></span>
+                    </div>
+                    <div class="counter-num">
+                      <p data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="counter purecounter"></p>
+                      <span class="counter-text"><h4>WORKS COMPLETED</h4></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 col-lg-3">
+                  <div class="counter-box pt-4 pt-md-0">
+                    <div class="counter-ico">
+                      <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+                    </div>
+                    <div class="counter-num">
+                      <p data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="counter purecounter"></p>
+                      <span class="counter-text"><h4>YEARS OF EXPERIENCE</h4></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 col-lg-3">
+                  <div class="counter-box pt-4 pt-md-0">
+                    <div class="counter-ico">
+                      <span class="ico-circle"><i class="bi bi-people"></i></span>
+                    </div>
+                    <div class="counter-num">
+                      <p data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="counter purecounter"></p>
+                      <span class="counter-text"><h4>TOTAL CLIENTS</h4></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 col-lg-3">
+                  <div class="counter-box pt-4 pt-md-0">
+                    <div class="counter-ico">
+                      <span class="ico-circle"><i class="bi bi-award"></i></span>
+                    </div>
+                    <div class="counter-num">
+                      <p data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="counter purecounter"></p>
+                      <span class="counter-text"><h4>AWARD WON</h4></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Counter Section -->
+
+          <section id="work" class="portfolio-mf sect-pt4 route">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="title-box text-center">
+                    <h3 class="title-a">
+                      Projectes
+                    </h3>
+                    <p class="subtitle-a">
+                   
+                    </p>
+                    <div class="line-mf"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="work-box">
+                    <a href="img/pic 1.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                      <div class="work-img">
+                        <img src="images/pic 1.png" alt="" class="img-fluid">
+                      </div>
+                    </a>
+                    <div class="work-content">
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <h1 class="w-title">max with website</h1 >
+                          <div class="w-more">
+                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="w-like">
+                            <a href="file:///D:/max%20with%20website/index.html"> <span class="bi bi-plus-circle"></span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="work-box">
+                    <a href="images/pic 2.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                      <div class="work-img">
+                        <img src="images/pic 2.png" alt="" class="img-fluid">
+                      </div>
+                    </a>
+                    <div class="work-content">
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <h1 class="w-title">Scafolde</h1>
+                          <div class="w-more">
+                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="w-like">
+                            <a href="file:///D:/scafold/index.html"> <span class="bi bi-plus-circle"></span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="work-box">
+                    <a href="images/pic 3.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                      <div class="work-img">
+                        <img src="images/pic 3.png" alt="" class="img-fluid">
+                      </div>
+                    </a>
+                    <div class="work-content">
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <h2 class="w-title">Artl website</h2>
+                          <div class="w-more">
+                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="w-like">
+                            <a href="file:///D:/Airtel/index.html"> <span class="bi bi-plus-circle"></span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="work-box">
+                    <a href="images/pic 4.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                      <div class="work-img">
+                        <img src="images/pic 4.png" alt="" class="img-fluid">
+                      </div>
+                    </a>
+                    <div class="work-content">
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <h2 class="w-title">Admit paneal</h2>
+                          <div class="w-more">
+                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="w-like">
+                            <a href="file:///D:/admin%20panel/index.html"> <span class="bi bi-plus-circle"></span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="work-box">
+                    <a href="images/pic 5.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                      <div class="work-img">
+                        <img src="images/pic 5.png" alt="" class="img-fluid">
+                      </div>
+                    </a>
+                    <div class="work-content">
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <h2 class="w-title">coffee website</h2>
+                          <div class="w-more">
+                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="w-like">
+                            <a href="file:///C:/Users/DELL/Desktop/website%20%20work/coffie%20website/index.html"> <span class="bi bi-plus-circle"></span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="work-box">
+                    <a href="images/pic 6.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                      <div class="work-img">
+                        <img src="images/pic 6.png" alt="" class="img-fluid">
+                      </div>
+                    </a>
+                    <div class="work-content">
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <h2 class="w-title">fittness web</h2>
+                          <div class="w-more">
+                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="w-like">
+                            <a href="file:///C:/Users/DELL/Desktop/website%20%20work/fetness%20website/index.html"> <span class="bi bi-plus-circle"></span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section><!-- End Portfolio Section -->
+          <div class="Review" style="text-align: center;"font-size="20px;"color="black"></div>
+          <div class="testimonials paralax-mf bg-image" style="background-image: url(https://t4.ftcdn.net/jpg/02/42/07/93/360_F_242079329_k9sTsgtKBtgpn13c0jEMwB9dhsduzqIZ.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="testimonial-box">
+                          <div class="author-test">
+                            <img src="images/testimonial-2.png" alt="" class="rounded-circle b-shadow-a">
+                            <span class="author"><h2><b>Alkesh dhadhut</b></h2></span>
+                          </div>
+                          <div class="content-test">
+                            <p class="description lead">
+                              <b>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                              consectetur adipiscing elit.</b>
+                            </p>
+                          </div>
+                        </div>
+                      </div><!-- End testimonial item -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+              </div> -->
+                </div>
+              </div>
+            </div>
+          </div><!-- End Testimonials Section --> 
+
+          <!-- ======= Contact Section ======= -->
+          <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="contact-mf">
+                    <div id="contact" class="box-shadow-full">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="title-box-2">
+                            <h5 class="title-left">
+                              <h2>Send Message</h2>
+                            </h5>
+                          </div>
+                          <div>
+                            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                              <div class="row">
+                                <div class="col-md-12 mb-3">
+                                  <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                  </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                  <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                  </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                  </div>
+                                </div>
+                                <div class="col-md-12">
+                                  <div class="form-group">
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                  </div>
+                                </div>
+                                <div class="col-md-12 text-center my-3">
+                                  <div class="loading">Loading</div>
+                                  <div class="error-message"></div>
+                                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                  <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title-box-2 pt-4 pt-md-0">
+                            <h5 class="title-left">
+                              <h2>Thank you</h2>
+                            </h5>
+                          </div>
+                          <div class="more-info">
+                            <p class="lead">
+                              <h2>Thank you so much for visit my portfolio.i am a full strack devloper.</h2>
+                            </p>
+                            <ul class="list-ico">
+                              <li><span class="bi bi-geo-alt"></span>om nager dindoli surat</li>
+                              <li><span class="bi bi-phone"></span>+91 9875166278</li>
+                              <li><span class="bi bi-envelope"></span>devyaniprajapati013@gmail.com</li>
+                            </ul>
+                          </div>
+                          <div class="socials">
+                            <ul>
+                              <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                              <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                              <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                              <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section><!-- End Contact Section -->
+        </main><!-- End #main -->
+        <!-- ======= Footer ======= -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="copyright-box"></div>
+                  <div class="credits">
+                    <!--
+                    All the links in the footer should remain intact.
+                    You can delete the links only if you purchased the pro version.
+                    Licensing information: https://bootstrapmade.com/license/
+                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                  -->
+                    Designed by <a href="https://bootstrapmade.com/">devyani prajapati</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </footer><!-- End  Footer -->
+        <!-- <div id="preloader"></div> -->
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/typed.js/typed.umd.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+      </body>
+      </html>
