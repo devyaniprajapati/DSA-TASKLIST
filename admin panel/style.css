@@ -1,0 +1,274 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: black; 
+     background-color: white;   
+}
+body
+{
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+}
+.offcanvas
+{
+    background-color: white;
+    color: black;
+}
+a.btn
+{
+    color: black;
+}
+a.btn:hover
+{
+    color: rgb(73, 166, 220);
+}
+a.btn.collapse {
+    color: black;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+a.topic
+{
+    color: black;
+    font-size: 20px;
+}
+.sun
+{
+    background-color: orange; 
+    border-radius: 50%;
+    padding: 4px 8px;
+    transition: .4s all;
+}
+.sun:hover
+{
+    background-color: red; 
+}
+
+h3
+{
+    color: black;
+}
+ul li a
+{
+    color: black;
+}
+.left
+{
+    background-color: white ;
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    color: black;
+}
+.accordion1
+{
+    margin-top: 25%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: white;
+  }
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.hov
+{
+    color: black;
+    transition: .5s all;
+}
+.hov:hover
+{
+    background-color: rgb(201, 181, 234);
+    color: black;
+}
+.header-main
+{
+    z-index: +999;
+}
+.right
+{
+    margin-left: 16.6%;
+}
+@media(min-width:320px) and (max-width:991px)
+{
+    .right
+{
+    margin-left: 0%;
+}   
+}
+.table-main
+{
+    overflow-x: auto;
+}
+td i
+{
+    color: rgb(255, 174, 0);
+}
+
+.dtHorizontalExampleWrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #dtHorizontalExample th, td {
+    white-space: nowrap;
+  }
+  
+  table.dataTable thead .sorting:after,
+  table.dataTable thead .sorting:before,
+  table.dataTable thead .sorting_asc:after,
+  table.dataTable thead .sorting_asc:before,
+  table.dataTable thead .sorting_asc_disabled:after,
+  table.dataTable thead .sorting_asc_disabled:before,
+  table.dataTable thead .sorting_desc:after,
+  table.dataTable thead .sorting_desc:before,
+  table.dataTable thead .sorting_desc_disabled:after,
+  table.dataTable thead .sorting_desc_disabled:before {
+   bottom: .5em;
+  }
+
+td span
+{
+    color: black;
+}
+tr th 
+{
+    color: black;
+}
+
+
+.table-main2
+{
+    overflow-x: auto;
+}
+.dtHorizontalExample1Wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #dtHorizontalExample1 th, td {
+    white-space: nowrap;
+  }
+  
+  table.dataTable thead .sorting:after,
+  table.dataTable thead .sorting:before,
+  table.dataTable thead .sorting_asc:after,
+  table.dataTable thead .sorting_asc:before,
+  table.dataTable thead .sorting_asc_disabled:after,
+  table.dataTable thead .sorting_asc_disabled:before,
+  table.dataTable thead .sorting_desc:after,
+  table.dataTable thead .sorting_desc:before,
+  table.dataTable thead .sorting_desc_disabled:after,
+  table.dataTable thead .sorting_desc_disabled:before {
+   bottom: .5em;
+  }
+
+
+
+  .light-theme {
+    background-color: white;
+    color: black;
+  
+    a {
+      color: black; 
+    }
+    span{
+        color: black; 
+    }
+    h1
+    {
+        color: black; 
+    }
+    h2{
+        color: black; 
+    }
+    h3{
+        color: black; 
+    }
+    h5{
+        color: black; 
+    }
+    p{
+        color: black; 
+    }
+    th{
+        color: black; 
+    }
+  }
+
+  
+  .light-theme22 {
+    background-color: rgb(101, 62, 62);
+    color: black;
+  
+   
+    a {
+      color: black ; 
+    }
+    span{
+        color: black; 
+    }
+    h1
+    {
+        color: black; 
+    }
+    h2{
+        color: black; 
+    }
+    h3{
+        color: black; 
+    }
+    h5{
+        color: black; 
+    }
+    p{
+        color: black; 
+    }
+    th{
+        color: black; 
+    }
+
+  }
+
+  .theme-switch123
+  {
+    background-color: black;
+    color: white;
+  }  
+
+  .light-theme123 {
+    background-color: white;
+    color: black;
+  
+   
+    a {
+      color: black; 
+    }
+  }
+
+  .light-theme12345 {
+    background-color: rgb(31, 29, 29);
+    color: black;
+  
+
+    a {
+      color: black; 
+    }
+  }
