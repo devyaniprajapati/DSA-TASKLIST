@@ -1,0 +1,304 @@
+* 
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.list1 .nav-item 
+{
+    color: #87888a;
+    font-weight: 600;
+    font-size: 15px;
+    font-weight: 700;
+    border-top: 3.3px solid white;
+    transition: all 0.3s;
+}
+.list1 .nav-item:hover 
+{
+    border-top: 3.3px solid #eb4f4f;
+    color: #e90000;
+}
+a:hover 
+{
+    color: #e90000;
+}
+.list2 .nav-item 
+{
+    font-size: 14px;
+    border-top: 3.3px solid white;
+    transition: all 0.3s;
+}
+.list2 .nav-item:hover 
+{
+    border-top: 3.3px solid #eb4f4f;
+    color: #e90000;
+    background-color: whitesmoke;
+
+    .dropdown1 {
+        display: block;
+    }
+}
+.dropdown1 
+{
+    display: none;
+    transition: all 1s;
+}
+
+.dropdown1 li 
+{
+    font-size: 13px;
+}
+.dropdown1 li:hover 
+{
+    color: #e90000;
+}
+.nav2-list .nav-item 
+{
+    padding: 13px 7px;
+    color: #e8ebef;
+    font-size: 14px;
+    font-weight: 600;
+    border-top: 3px solid white;
+}
+.nav2-dropdown 
+{
+    display: none;
+}
+.nav2-dropdown li 
+{
+    border-bottom: 1px solid lightgray;
+    font-size: 14px;
+}
+.nav2-list .nav-link 
+{
+    color: #e90000;
+}
+.nav2-list .nav-item:hover 
+{
+    border-top: 3px solid red;
+    background-color: whitesmoke;
+    font-weight: 600;
+
+    .nav2-dropdown {
+        display: inline;
+    }
+}
+.second-menu .nav-link 
+{
+    font-size: 13px;
+}
+.third-menu .nav-link 
+{
+    color: #292c31;
+}
+.third-menu .nav-item 
+{
+    padding: 5px;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+}
+.third-menu .dropdown-menu li 
+{
+    border-bottom: 1px solid lightgray;
+    font-size: 14px;
+}
+.banner 
+{
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.hero-sec-content 
+{
+    text-align: left;
+}
+.hero-sec-content h2 
+{
+    font-weight: 700;
+    color: #292c31;
+}
+.hero-sec-content p 
+{
+    font-weight: 600;
+    color: #292c31;
+}
+.hero-sec-content a 
+{
+    font-weight: 700;
+    color: #f6f6f6;
+    font-size: 12px;
+    background-color: #1c42d7;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+.recharge-content .nav-link 
+{
+    font-size: 14px;
+    padding: 5px 13px;
+    color: #457fe3;
+}
+.recharge-content .nav-link:hover 
+{
+    color: #292c31;
+}
+.recharge-content input 
+{
+    height: 45px;
+    width: 65%;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid #e3e5ff;
+    outline: none;
+    transition: all 0.20s;
+}
+.recharge-content input:hover 
+{
+    border: 2px solid #a5abfb;
+}
+.recharge-content a 
+{
+    width: 65%;
+    padding: 10px 0px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #000000;
+}
+.offer-sec-content p 
+{
+    font-size: 14px;
+    color: #f6f6f6;
+    font-weight: 600;
+}
+.offer-sec-content a 
+{
+    background-color: #ff4949;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 2px 10px;
+}
+.switch-airtel-sec h2 
+{
+    font-weight: 700;
+    color: #306fdd;
+}
+.switch-airtel-sec-content i
+{
+    font-size: 26px;
+    background-color: #e3e5ff;
+    padding: 13px 17px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.switch-airtel-sec-content i:hover 
+{
+    border: 1px solid #b3b8fe;
+    background-color: #9ba2f9;
+}
+.switch-airtel-sec-content svg 
+{
+    font-size: 26px;
+    background-color: #e3e5ff;
+    padding: 10px 14px;
+    border-radius: 50%;
+    border: 1px solid #8b92fa;
+}
+.switch-airtel-sec-content svg:hover 
+{
+    border: 1px solid #b3b8fe;
+    background-color: #7e87ec;
+}
+.switch-airtel-sec-content p 
+{
+    font-size: 14px;
+}
+.switch-your-number-content h5 
+{
+    color: #f6f6f6;
+    font-size: 16px;
+    font-weight: 700;
+}
+.switch-your-number-content p 
+{
+    color: #f6f6f6;
+    font-size: 13px;
+    font-weight: 600;
+}
+.switch-your-number a 
+{
+    background-color: #ff4949;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 6px 11px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.fourth-content{
+    background: url("https://assets.airtel.in/static-assets/home-recast/images/conversational-widget-bg-web.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+}
+.main-card{
+    height: 412px;
+    width: 400px;
+    margin:50px auto;
+    padding: 20px;
+    background-color: #f5f4ff;
+    border-radius: 10px;
+}
+.main-card button{
+    display: inline-block;
+    background-color: #e3e5ff;
+    padding: 8px 15px;
+    width: 60%;
+    margin: 12px 0;
+    border-radius: 25px;
+}
+.btop
+{
+    border-top: 3px solid white;
+}
+.btop:hover
+{
+    border-top: 3px solid red;
+}
+@media(min-width:0px) and (max-width:576px)
+{
+    .none
+    {
+        display: none;
+    }
+}
+@media(min-width:576px) and (max-width:768px)
+{
+    .none
+    {
+        display: none;
+    }
+}
+@media(min-width:768px) and (max-width:992px)
+{
+    .none
+    {
+        display: none;
+    }
+    .navbar-menu ul
+    {
+        padding: -200%;
+    }
+}
+@media(min-width:992px) and (max-width:1200px)
+{
+    .follow
+    {
+        /* display: none;
+        opacity: 0; */
+        width: 80%;
+    }
+}
+
+    
